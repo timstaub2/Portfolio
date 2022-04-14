@@ -73,3 +73,42 @@ header nav ul li a:hover{
 .work h2 {
     text-align: left;
 }
+
+.coding-examples {
+    display: flex;
+    flex-direction: row;
+}
+
+.run-buddy {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    padding: 35px 25px;
+    margin: 15px 5px 15px 5px;
+}
+
+.run-buddy img {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.under-construction img {
+    width: 300px;
+    height: 300px;
+}
+
+.second-construction img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* footer */
+footer {
+    padding: 35px 25px;
+    margin: 15px 5px 15px 5px;
+}
