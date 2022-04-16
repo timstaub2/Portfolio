@@ -175,3 +175,269 @@ footer {
 .contact-info p:hover {
     background: yellow
 }
+
+
+/*  MEDIA QUERY FOR SMALLER DESKTOP SCREENS 980PX */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .am-container {
+        justify-content: left;
+        width: 100%;
+    }
+
+    body section p img {
+        padding: 0;
+    }
+
+    .work h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-list ul {
+        width: 100%;
+        text-align: center;
+    }
+    .coding-examples {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .coding-examples h2 {
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .example-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .run-buddy img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .robot-gladiators img {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .under-construction img {
+        padding: 0;
+    }
+
+    .second-construction img {
+        padding: 0;
+    }
+
+}
+
+
+
+/* MEDIA QUERY FOR SMALLER TABLET SCREENS 768PX */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .am-container {
+        justify-content: left;
+        width: 100%;
+    }
+
+    body section p img {
+        padding: 0;
+    }
+
+    .work h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-list ul {
+        width: 100%;
+        text-align: center;
+    }
+    .coding-examples {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .coding-examples h2 {
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .example-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .run-buddy img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .robot-gladiators img {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .under-construction img {
+        padding: 0;
+    }
+
+    .second-construction img {
+        padding: 0;
+    }
+
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER 575PX */
+@media screen and (max-width: 575px) {
+    header {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    body section p img {
+        padding: 0;
+    }
+
+    .am-container {
+        justify-content: left;
+        width: 100%;
+    }
+
+    .am-container p {
+        justify-content: left;
+        text-align: left;
+    }
+
+    .am-container section p img {
+        justify-content: center;
+    }
+
+    .work h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-list ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .coding-examples {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .coding-examples h2 {
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .example-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .run-buddy img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .robot-gladiators img {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .under-construction img {
+        padding: 0;
+    }
+
+    .second-construction img {
+        padding: 0;
+    }
+
+    footer h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-info p {
+        padding: 0 5px 0 5px;
+    }
+}
