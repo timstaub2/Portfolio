@@ -20,9 +20,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(242, 248, 246);
+    background-color: aquamarine;
     color: black;
-    padding: 5px 0 5px;
+    padding: 20px 35px;
     position: sticky;
     top: 0;
 }
@@ -62,6 +62,10 @@ header nav ul li a:hover{
     text-shadow: none;
 }
 
+.about-me-scroll {
+    margin-bottom: 7em;
+}
+
 
 .about-me {
     display: flex;
@@ -79,6 +83,10 @@ header nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     width: 950px;
+}
+
+.work-scroll {
+    margin-bottom: 7em;
 }
 
 .work {
@@ -106,6 +114,9 @@ header nav ul li a:hover{
     padding: 2px;
 }
 
+.portfolio-scroll {
+    margin-bottom: 7em;
+}
 
 .coding-examples {
     display: flex;
@@ -157,6 +168,10 @@ header nav ul li a:hover{
 
 
 /* footer */
+.contact-scroll {
+    margin-bottom: 7em;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
